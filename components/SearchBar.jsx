@@ -22,7 +22,7 @@ const SearchBar = ({ onSearch }) => {
         className="w-4/5 bg-white shadow-none appearance-none pl-4 pr-10 py-2 rounded-lg text-sm font-medium text-gray-900 dark:bg-gray-800 dark:text-gray-100"
         placeholder="Search song, artist or genre..."
         type="text"
-        onChabge={handleTermChange}
+        onChange={handleTermChange}
       />
       <Button className="sm:w-1/5" onClick={search}>
         Search
